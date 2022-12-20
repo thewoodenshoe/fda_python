@@ -13,14 +13,13 @@ The proper way to do this to create a function "create sorting list" with input:
 3. In this function the counters are uniform (myStateCount, myYearCount, etc. all become "myCount")
 
 Then another function "display list" is created to call the function above with input:
-1. Sorting asc or desc
-2. display restrictions (avg, max/min/ top10)
-3. Specific year or all
-4. Filter
+1. Specific year or all
+2. display restrictions (avg, min_max, top10)
+3. Filter
 
 END RESULT: Call the "prepare list" function. For example:
 
-1. display_list ("desc", "top10", "all", "class3")
-2. display_list ("desc", "avg", 2016)
-3. display_list ("desc", "top10", 2017, "state")
-4. display_list ("desc, "max/min", "all")
+1. display_list ("all", "top10", "class3")
+2. display_list (2016, "avg")
+3. display_list (2017, "top10", "state")
+4. display_list ("all", "min_max", "state")

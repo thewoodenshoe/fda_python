@@ -33,7 +33,6 @@ for i in sorted_class3:
 class3_with_count_sorted = sorted(class3_with_count, key=itemgetter('count'), reverse=True)
 
 # display the first 5 of the new sorted list with count
-myStateCount =0
 for i in range(0, 4):
    print('State', class3_with_count_sorted[i]['state'], 'and status', class3_with_count_sorted[i]['status'], ':', class3_with_count_sorted[i]['count'])
 
