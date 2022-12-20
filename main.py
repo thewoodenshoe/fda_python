@@ -2,6 +2,10 @@ import requests
 import json
 from operator import itemgetter
 
+###########################################
+######## PLEASE READ THE README ###########
+###########################################
+
 # open file
 f = open("./data/food-enforcement-0001-of-0001.json", "r")
 data_dict = json.load(f)
